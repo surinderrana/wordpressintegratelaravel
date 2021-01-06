@@ -9,7 +9,7 @@ add_action( 'rest_api_init', function () {
     'callback' => 'my_awesome_func',
   ) );
 } );
-
+/* tesing gi5 */
 function my_awesome_func ( $data ) {
   
     $name = $data->get_param( 'name' );
